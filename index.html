@@ -17,34 +17,39 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 
-
    <!-- Font Awsome -->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <!-- main css  -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
 <body>
+
   <header>
     <h1 >Welcome to <span>E-shakha</span> store</h1>
   </header>
+
+  <!-- strat main section  -->
   <main class="main">
+    <!-- search section  -->
     <div class="search-field">
       <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
+        <input id="input-field" class="search-field"  type="text" placeholder="Search your products " />
         <button type="button" class="btn  search-button" data-toggle="button" aria-pressed="false"
           autocomplete="off" id="search-btn" onclick="loadProducts()">
           Search
         </button>
       </div>
     </div>
+  
     <div class="row">
+      <!-- strat product section  -->
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="card">
-         
         </div>
       </div>
+      <!-- stat cart section  -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
@@ -96,6 +101,8 @@
       </div>
     </div>
   </main>
+ 
+<!-- footer part  -->
   <footer></footer>
 
   <!-- add javascript  file  -->
