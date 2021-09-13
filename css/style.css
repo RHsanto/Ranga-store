@@ -57,7 +57,7 @@ header  span{
 padding: 20px;
 transition: 0.6s;
 background-color: rgba(169, 172, 172, 0.315);
-
+height: 450px;
 
 }
 .single-product:hover {
