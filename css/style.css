@@ -15,7 +15,7 @@ header  span{
 .search-field {
   border: none;
   border-radius: 50px;
-  padding: 5px;
+  padding: 10px;
   outline: none;
   
 }
@@ -24,8 +24,8 @@ header  span{
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  border: 1px solid rgb(95, 96, 97);
+  width: 30%;
   border-radius: 5px;
   margin: 20px auto;
   border-right: none;
@@ -37,6 +37,8 @@ header  span{
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
+  background-color: #4ab94a;
+  color: aliceblue;
 }
 
 
@@ -81,8 +83,13 @@ background-color: rgba(172, 180, 180, 0.315);
 }
 
 /* iconn color  */
-.fas{
+.fa-star{
   color: gold;
+}
+.fa-user{
+  color: rgb(0, 140, 255);
+padding-left: 10px;
+
 }
 @media only screen and (max-width: 768px) {
   #all-products {
