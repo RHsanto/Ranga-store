@@ -25,7 +25,7 @@ header  span{
 }
 .search-box {
   border: 1px solid rgb(95, 96, 97);
-  width: 30%;
+  width: 28%;
   border-radius: 5px;
   margin: 20px auto;
   border-right: none;
@@ -36,11 +36,11 @@ header  span{
 
 .search-button {
   padding: 10px 50px;
-  border-radius: 25px;
   background-color: #4ab94a;
   color: aliceblue;
 
 }
+
 
 
 #all-products {
@@ -57,7 +57,7 @@ header  span{
 padding: 20px;
 transition: 0.6s;
 background-color: rgba(169, 172, 172, 0.315);
-height: 450px;
+height: 500px;
 
 }
 .single-product:hover {
