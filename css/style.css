@@ -53,14 +53,17 @@ header  span{
   grid-gap: 20px;
 }
 .single-product {
-  padding: 10px;
-  transition: 0.6s;
-background-color: rgba(172, 180, 180, 0.315);
+padding: 20px;
+transition: 0.6s;
+background-color: rgba(169, 172, 172, 0.315);
+width: 450px;
+height: 450px;
+
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
-  border-radius: 10px;
-  border: 1px solid ;
+  border-radius: 15px;
+  border: 1px solid grey;
 }
 .product-image {
   width: 150px;
@@ -76,6 +79,7 @@ background-color: rgba(172, 180, 180, 0.315);
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+
   
 }
 .cart-main {
